@@ -1,16 +1,17 @@
 {
   "name": "saas",
   "private": true,
+  "author": {
+    "name": "Hilquias Ferreira Melo",
+    "email": "hilquiasfmelo@hotmail.com",
+    "url": "https://github.com/hilquiasfmelo"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint": "turbo lint"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "prettier": "^3.2.5",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.9.0",
